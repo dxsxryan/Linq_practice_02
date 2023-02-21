@@ -10,8 +10,13 @@ namespace linq金字塔
     {
         static void Main(string[] args)
         {
-            Console.Write("請輸入一個正整數：");
+ back:      Console.Write("請輸入一個0~9的正整數：");
             var n = int.Parse(Console.ReadLine());
+            if(n > 9 || n < 0)
+            {
+                Console.WriteLine("不要亂輸入數字");
+                goto back;
+            }
             Console.WriteLine();
             var seq = Enumerable.Range(1, n);
             var pyramid = seq.Select(i => new string(Convert.ToChar(n - i + 49), i));
@@ -20,9 +25,7 @@ namespace linq金字塔
             {
                 Console.WriteLine(line);
             }
-
             Console.ReadLine();
-
         }
     }
 }
