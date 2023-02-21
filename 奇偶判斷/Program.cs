@@ -36,7 +36,7 @@ namespace 奇偶判斷
                     odd.Add(item);
                 }
             }
-            Console.Write("奇數：");
+            Console.Write("\n奇數：");
             foreach (var item in odd)
             {
                 if (item != odd.Last())
@@ -48,6 +48,7 @@ namespace 奇偶判斷
                     Console.Write(item);
                 }
             }
+            Console.Write("\n偶數：");
             foreach (var item in even)
             {
                 if (item != even.Last())
