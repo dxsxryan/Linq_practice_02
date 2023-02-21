@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "反向排序陣列", "反�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "奇偶判斷", "奇偶判斷\奇偶判斷.csproj", "{6F16422E-2E4F-4F9B-866E-BAABA6A26CE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "linq金字塔", "linq金字塔\linq金字塔.csproj", "{4183DDA9-041B-4FEA-B2A0-16B6A4A93DC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6F16422E-2E4F-4F9B-866E-BAABA6A26CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F16422E-2E4F-4F9B-866E-BAABA6A26CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F16422E-2E4F-4F9B-866E-BAABA6A26CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4183DDA9-041B-4FEA-B2A0-16B6A4A93DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4183DDA9-041B-4FEA-B2A0-16B6A4A93DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4183DDA9-041B-4FEA-B2A0-16B6A4A93DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4183DDA9-041B-4FEA-B2A0-16B6A4A93DC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
