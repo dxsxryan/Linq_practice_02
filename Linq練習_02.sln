@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "反向排序陣列", "反向排序陣列\反向排序陣列.csproj", "{3977AF91-C924-4BF2-A4B3-7A2EEA9491BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "奇偶判斷", "奇偶判斷\奇偶判斷.csproj", "{6F16422E-2E4F-4F9B-866E-BAABA6A26CE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3977AF91-C924-4BF2-A4B3-7A2EEA9491BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3977AF91-C924-4BF2-A4B3-7A2EEA9491BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3977AF91-C924-4BF2-A4B3-7A2EEA9491BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F16422E-2E4F-4F9B-866E-BAABA6A26CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F16422E-2E4F-4F9B-866E-BAABA6A26CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F16422E-2E4F-4F9B-866E-BAABA6A26CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F16422E-2E4F-4F9B-866E-BAABA6A26CE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
