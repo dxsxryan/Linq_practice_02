@@ -12,8 +12,8 @@ namespace 奇偶判斷
         {
             Console.Write("輸入：");
             var list = new List<string>() { "8", "7", "9", "3", "11", "6", "2", "18" };
-            var odd = new List<string>();
-            var even = new List<string>();
+            var odd = new List<int>();
+            var even = new List<int>();
             foreach(var item in list)
             {
                 if(item != list.Last())
@@ -29,17 +29,19 @@ namespace 奇偶判斷
             {
                 if (int.Parse(item) % 2 == 0)
                 {
-                    even.Add(item);
+                    even.Add(int.Parse(item));
                 }
                 else
                 {
-                    odd.Add(item);
+                    odd.Add(int.Parse(item));
                 }
             }
+            var odd_od = odd.OrderBy((x) => x);
+            var even_od = even.OrderBy((x) => x);
             Console.Write("\n奇數：");
-            foreach (var item in odd)
+            foreach (var item in odd_od)
             {
-                if (item != odd.Last())
+                if (item != odd_od.Last())
                 {
                     Console.Write($"{item}, ");
                 }
@@ -49,9 +51,9 @@ namespace 奇偶判斷
                 }
             }
             Console.Write("\n偶數：");
-            foreach (var item in even)
+            foreach (var item in even_od)
             {
-                if (item != even.Last())
+                if (item != even_od.Last())
                 {
                     Console.Write($"{item}, ");
                 }
@@ -60,6 +62,8 @@ namespace 奇偶判斷
                     Console.Write(item);
                 }
             }
+            Console.WriteLine();
+            Console.ReadLine();
         }
     }
 }
