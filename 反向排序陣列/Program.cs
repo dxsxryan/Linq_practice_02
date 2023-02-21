@@ -14,15 +14,31 @@ namespace 反向排序陣列
             Console.Write("輸入：");
             foreach(string i in list)
             {
-                Console.Write($"{i}, ");
+                if(i != list.Last())
+                {
+                    Console.Write($"{i}, ");
+                }
+                else
+                {
+                    Console.WriteLine(i);
+                }
             }
             Console.WriteLine();
             list.Reverse();
             Console.Write("輸出：");
             foreach(string i in list)
             {
-                Console.Write($"{i}, ");
+                if (i != list.Last())
+                {
+                    Console.Write($"{i}, ");
+                }
+                else
+                {
+                    Console.WriteLine(i);
+                }
             }
+            Console.WriteLine();
+            Console.ReadLine();
         }
     }
 }
